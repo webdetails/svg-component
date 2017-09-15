@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>pt.webdetails</groupId>
+    <artifactId>component-modules</artifactId>
+    <version>1.0</version>
+
+    <packaging>pom</packaging>
+   
+    <name>Component Modules</name>
+
+    <properties>
+        <component.name>svg-component-cdf</component.name>
+        <component.folder>SvgComponent</component.folder>
+        <component.filename>svg-component-cdf</component.filename>
+        <sample.filename>sample-svg-component</sample.filename>
+    </properties>
+ 
+    <organization>
+        <name>Pentaho</name>
+        <url>http://www.pentaho.com/</url>
+    </organization>
+ 
+    <modules>
+        <module>impl</module>
+        <module>assemblies</module>
+    </modules>
+
+</project>
