@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDADescriptor>
+   <DataSources>
+      <Connection id="svg_both_red" type="scripting.scripting">
+         <Initscript/>
+         <Language>beanshell</Language>
+      </Connection>
+      <Connection id="svg_both_orange" type="scripting.scripting">
+         <Initscript/>
+         <Language>beanshell</Language>
+      </Connection>
+      <Connection id="svg_color_orange" type="scripting.scripting">
+         <Initscript/>
+         <Language>beanshell</Language>
+      </Connection>
+      <Connection id="svg_color_red" type="scripting.scripting">
+         <Initscript/>
+         <Language>beanshell</Language>
+      </Connection>
+      <Connection id="svg_text_orange" type="scripting.scripting">
+         <Initscript/>
+         <Language>beanshell</Language>
+      </Connection>
+      <Connection id="svg_text_red" type="scripting.scripting">
+         <Initscript/>
+         <Language>beanshell</Language>
+      </Connection>
+   </DataSources>
+   <DataAccess access="public" connection="svg_both_red" id="svg_both_red"
+               type="jsonScriptable">
+      <Name>svg_both_red</Name>
+      <Cache duration="3600" enabled="true"/>
+      <Columns/>
+      <Parameters/>
+      <Query><![CDATA[{
+   "resultset":[
+      ["style", "idxpto", "fill", "red"],
+      ["text", "textid", "-", "Red"]
+   ],
+ 
+   "metadata":[
+      {"colIndex":0,"colType":"String","colName":"changeType"},
+      {"colIndex":0,"colType":"String","colName":"svgElementID"},
+      {"colIndex":1,"colType":"String","colName":"styleProperty"},
+      {"colIndex":2,"colType":"String","colName":"value"}
+   ]
+}]]></Query>
+   </DataAccess>
+   <DataAccess access="public" connection="svg_both_orange" id="svg_both_orange"
+               type="jsonScriptable">
+      <Name>svg_both_orange</Name>
+      <Cache duration="3600" enabled="true"/>
+      <Columns/>
+      <Parameters/>
+      <Query><![CDATA[{
+   "resultset":[
+      ["style", "idxpto", "fill", "orange"],
+      ["text", "textid", "-", "Orange"]
+   ],
+ 
+   "metadata":[
+      {"colIndex":0,"colType":"String","colName":"changeType"},
+      {"colIndex":0,"colType":"String","colName":"svgElementID"},
+      {"colIndex":1,"colType":"String","colName":"styleProperty"},
+      {"colIndex":2,"colType":"String","colName":"value"}
+   ]
+}]]></Query>
+   </DataAccess>
+   <DataAccess access="public" connection="svg_color_orange" id="svg_color_orange"
+               type="jsonScriptable">
+      <Name>svg_color_orange</Name>
+      <Cache duration="3600" enabled="true"/>
+      <Columns/>
+      <Parameters/>
+      <Query><![CDATA[{
+   "resultset":[
+      ["style", "idxpto", "fill", "orange"]
+   ],
+ 
+   "metadata":[
+      {"colIndex":0,"colType":"String","colName":"changeType"},
+      {"colIndex":0,"colType":"String","colName":"svgElementID"},
+      {"colIndex":1,"colType":"String","colName":"styleProperty"},
+      {"colIndex":2,"colType":"String","colName":"value"}
+   ]
+}]]></Query>
+   </DataAccess>
+   <DataAccess access="public" connection="svg_color_red" id="svg_color_red"
+               type="jsonScriptable">
+      <Name>svg_color_red</Name>
+      <Cache duration="3600" enabled="true"/>
+      <Columns/>
+      <Parameters/>
+      <Query><![CDATA[{
+   "resultset":[
+      ["style", "idxpto", "fill", "red"]
+   ],
+ 
+   "metadata":[
+      {"colIndex":0,"colType":"String","colName":"changeType"},
+      {"colIndex":0,"colType":"String","colName":"svgElementID"},
+      {"colIndex":1,"colType":"String","colName":"styleProperty"},
+      {"colIndex":2,"colType":"String","colName":"value"}
+   ]
+}]]></Query>
+   </DataAccess>
+   <DataAccess access="public" connection="svg_text_orange" id="svg_text_orange"
+               type="jsonScriptable">
+      <Name>svg_text_orange</Name>
+      <Cache duration="3600" enabled="true"/>
+      <Columns/>
+      <Parameters/>
+      <Query><![CDATA[{
+   "resultset":[
+      ["text", "textid", "-", "Orange"]
+   ],
+ 
+   "metadata":[
+      {"colIndex":0,"colType":"String","colName":"changeType"},
+      {"colIndex":0,"colType":"String","colName":"svgElementID"},
+      {"colIndex":1,"colType":"String","colName":"styleProperty"},
+      {"colIndex":2,"colType":"String","colName":"value"}
+   ]
+}]]></Query>
+   </DataAccess>
+   <DataAccess access="public" connection="svg_text_red" id="svg_text_red"
+               type="jsonScriptable">
+      <Name>svg_text_red</Name>
+      <Cache duration="3600" enabled="true"/>
+      <Columns/>
+      <Parameters/>
+      <Query><![CDATA[{
+   "resultset":[
+      ["text", "textid", "-", "Red"]
+   ],
+ 
+   "metadata":[
+      {"colIndex":0,"colType":"String","colName":"changeType"},
+      {"colIndex":0,"colType":"String","colName":"svgElementID"},
+      {"colIndex":1,"colType":"String","colName":"styleProperty"},
+      {"colIndex":2,"colType":"String","colName":"value"}
+   ]
+}]]></Query>
+   </DataAccess>
+</CDADescriptor>

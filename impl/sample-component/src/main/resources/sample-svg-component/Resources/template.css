@@ -1,0 +1,64 @@
+/*
+ * Webdetails template
+ */
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v4/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url('http://themes.googleusercontent.com/static/fonts/opensans/v4/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff') format('woff');
+}
+body .rowContent{
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 12px;
+}
+
+/****************** Header and Header border *************/
+.header {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+/****************** Other headers *************/
+
+.h2 {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.colTitle {
+  margin: 20px 50px 10px 40px;
+}
+
+.rowContent {
+  width: 1050px;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.15);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.colContent {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+

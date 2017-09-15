@@ -1,0 +1,2533 @@
+{
+ "components": {
+  "rows": [
+   {
+    "id": "SELECTORS",
+    "name": "Selects",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "Group",
+      "type": "Label",
+      "value": "Selects"
+     }
+    ],
+    "type": "Label",
+    "typeDesc": "<i>Group</i>"
+   },
+   {
+    "id": "34e59f6c-fbbf-e3f1-beaa-3158bf85bcc6",
+    "parent": "SELECTORS",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "changeSvg"
+     },
+     {
+      "name": "title",
+      "type": "String",
+      "value": ""
+     },
+     {
+      "name": "parameter",
+      "type": "Parameter",
+      "value": "${p:filterParam}"
+     },
+     {
+      "name": "listeners",
+      "type": "Listeners",
+      "value": "[]"
+     },
+     {
+      "name": "parameters",
+      "type": "ValuesArray",
+      "value": "[]"
+     },
+     {
+      "name": "valueAsId",
+      "type": "Boolean",
+      "value": "true"
+     },
+     {
+      "name": "outputFormat",
+      "type": "outputFormatCustom",
+      "value": "lowestID"
+     },
+     {
+      "name": "dataSource",
+      "type": "Datasource",
+      "value": ""
+     },
+     {
+      "name": "valuesArray",
+      "type": "ValuesArray",
+      "value": "[[\"orange\",\"Orange\"],[\"red\",\"Red\"]]"
+     },
+     {
+      "name": "priority",
+      "type": "Integer",
+      "value": 5
+     },
+     {
+      "name": "alwaysExpanded",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "multiselect",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "selectionLimit",
+      "type": "Integer",
+      "value": 200
+     },
+     {
+      "name": "pageSize",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "showIcons",
+      "type": "Boolean",
+      "value": "true"
+     },
+     {
+      "name": "showButtonOnlyThis",
+      "type": "Boolean",
+      "value": "true"
+     },
+     {
+      "name": "useOverlay",
+      "type": "Boolean",
+      "value": "true"
+     },
+     {
+      "name": "showFilter",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "htmlObject",
+      "type": "HtmlObject",
+      "value": "${h:colFilter}"
+     },
+     {
+      "name": "executeAtStart",
+      "type": "Boolean",
+      "value": "true"
+     },
+     {
+      "name": "preExecution",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "postExecution",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "postFetch",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "preChange",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "postChange",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "postUpdate",
+      "type": "Array",
+      "value": "[]"
+     },
+     {
+      "name": "renderRootHeader",
+      "type": "Array",
+      "value": "[]"
+     },
+     {
+      "name": "renderRootSelection",
+      "type": "Array",
+      "value": "[]"
+     },
+     {
+      "name": "renderRootFooter",
+      "type": "Array",
+      "value": "[]"
+     },
+     {
+      "name": "renderGroupSelection",
+      "type": "Array",
+      "value": "[]"
+     },
+     {
+      "name": "renderItemSelection",
+      "type": "Array",
+      "value": "[]"
+     },
+     {
+      "name": "sortGroup",
+      "type": "Array",
+      "value": "[]"
+     },
+     {
+      "name": "sortItem",
+      "type": "Array",
+      "value": "[]"
+     },
+     {
+      "name": "options",
+      "type": "JavaScript",
+      "value": "function options(){\n    return {};\n}"
+     }
+    ],
+    "rowName": "Filter Component",
+    "type": "ComponentsFilterComponent",
+    "typeDesc": "Filter Component"
+   },
+   {
+    "id": "GENERIC",
+    "name": "Generic",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "Group",
+      "type": "Label",
+      "value": "Generic"
+     }
+    ],
+    "type": "Label",
+    "typeDesc": "<i>Group</i>"
+   },
+   {
+    "id": "4bd30bf8-dbba-95b8-aa32-8f0b4c081e92",
+    "parent": "GENERIC",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "filterParam"
+     },
+     {
+      "name": "javaScript",
+      "type": "JavaScript",
+      "value": "[\"red\"] "
+     },
+     {
+      "name": "parameterViewRole",
+      "type": "parameterViewRoleCustom",
+      "value": "unused"
+     },
+     {
+      "name": "bookmarkable",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "public",
+      "type": "Boolean",
+      "value": "false"
+     }
+    ],
+    "rowName": "Custom Parameter",
+    "type": "ComponentsJavascriptParameter",
+    "typeDesc": "Custom parameter"
+   },
+   {
+    "id": "CUSTOMCOMPONENTS",
+    "name": "Custom",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "Group",
+      "type": "Label",
+      "value": "Custom"
+     }
+    ],
+    "type": "Label",
+    "typeDesc": "<i>Group</i>"
+   },
+   {
+    "id": "1fd3328e-1c92-fd4f-50f7-43fae0d409ca",
+    "parent": "CUSTOMCOMPONENTS",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "svg_color"
+     },
+     {
+      "name": "listeners",
+      "type": "Listeners",
+      "value": "[\"${p:filterParam}\"]"
+     },
+     {
+      "name": "parameters",
+      "type": "ValuesArray",
+      "value": "[]"
+     },
+     {
+      "name": "url",
+      "type": "String",
+      "value": "people_icon.svg"
+     },
+     {
+      "name": "keepImage",
+      "type": "Boolean",
+      "value": "true"
+     },
+     {
+      "name": "drawCallback",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "dataSource",
+      "type": "Datasource",
+      "value": "svg_color_red"
+     },
+     {
+      "name": "priority",
+      "type": "Integer",
+      "value": 5
+     },
+     {
+      "name": "htmlObject",
+      "type": "HtmlObject",
+      "value": "${h:col_svgColor}"
+     },
+     {
+      "name": "executeAtStart",
+      "type": "Boolean",
+      "value": "true"
+     },
+     {
+      "name": "preExecution",
+      "type": "JavaScript",
+      "value": "function f() {\r\n    var filterParam = this.dashboard.getParameterValue(\"filterParam\");\r\n    \r\n    if (!_.isEmpty(filterParam) && filterParam[0] === \"red\"){\r\n        this.chartDefinition.dataSource = \"svg_color_red\";\r\n    } else if (!_.isEmpty(filterParam) && filterParam[0] === \"orange\") {\r\n        this.chartDefinition.dataSource = \"svg_color_orange\";\r\n    }\r\n} "
+     },
+     {
+      "name": "postExecution",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "postFetch",
+      "type": "JavaScript",
+      "value": ""
+     }
+    ],
+    "rowName": "SVG Component",
+    "type": "ComponentsSvgComponent",
+    "typeDesc": "SVG Component"
+   },
+   {
+    "id": "8e87ed94-6cf8-8e06-af2f-12a29cc5a07b",
+    "parent": "CUSTOMCOMPONENTS",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "svg_text"
+     },
+     {
+      "name": "listeners",
+      "type": "Listeners",
+      "value": "[\"${p:filterParam}\"]"
+     },
+     {
+      "name": "parameters",
+      "type": "ValuesArray",
+      "value": "[]"
+     },
+     {
+      "name": "url",
+      "type": "String",
+      "value": "people_icon.svg"
+     },
+     {
+      "name": "keepImage",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "drawCallback",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "dataSource",
+      "type": "Datasource",
+      "value": "svg_text_red"
+     },
+     {
+      "name": "priority",
+      "type": "Integer",
+      "value": 5
+     },
+     {
+      "name": "htmlObject",
+      "type": "HtmlObject",
+      "value": "${h:col_svgText}"
+     },
+     {
+      "name": "executeAtStart",
+      "type": "Boolean",
+      "value": "true"
+     },
+     {
+      "name": "preExecution",
+      "type": "JavaScript",
+      "value": "function f() {\r\n    \r\n    var filterParam = this.dashboard.getParameterValue(\"filterParam\");\r\n    \r\n    if (!_.isEmpty(filterParam) && filterParam[0] === \"red\"){\r\n        this.chartDefinition.dataSource = \"svg_text_red\";\r\n    } else if (!_.isEmpty(filterParam) && filterParam[0] === \"orange\") {\r\n        this.chartDefinition.dataSource = \"svg_text_orange\";\r\n    }\r\n} "
+     },
+     {
+      "name": "postExecution",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "postFetch",
+      "type": "JavaScript",
+      "value": ""
+     }
+    ],
+    "rowName": "SVG Component",
+    "type": "ComponentsSvgComponent",
+    "typeDesc": "SVG Component"
+   },
+   {
+    "id": "cbf8c50f-f255-115b-4ba4-a98f4afe4e6f",
+    "parent": "CUSTOMCOMPONENTS",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "svg_both"
+     },
+     {
+      "name": "listeners",
+      "type": "Listeners",
+      "value": "[\"${p:filterParam}\"]"
+     },
+     {
+      "name": "parameters",
+      "type": "ValuesArray",
+      "value": "[]"
+     },
+     {
+      "name": "url",
+      "type": "String",
+      "value": "people_icon.svg"
+     },
+     {
+      "name": "keepImage",
+      "type": "Boolean",
+      "value": "true"
+     },
+     {
+      "name": "drawCallback",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "dataSource",
+      "type": "Datasource",
+      "value": "svg_both_red"
+     },
+     {
+      "name": "priority",
+      "type": "Integer",
+      "value": 5
+     },
+     {
+      "name": "htmlObject",
+      "type": "HtmlObject",
+      "value": "${h:col_svgBoth}"
+     },
+     {
+      "name": "executeAtStart",
+      "type": "Boolean",
+      "value": "true"
+     },
+     {
+      "name": "preExecution",
+      "type": "JavaScript",
+      "value": "function f() {\r\n    var filterParam = this.dashboard.getParameterValue(\"filterParam\");\r\n    \r\n    if (!_.isEmpty(filterParam) && filterParam[0] === \"red\"){\r\n        this.chartDefinition.dataSource = \"svg_both_red\";\r\n    } else if (!_.isEmpty(filterParam) && filterParam[0] === \"orange\") {\r\n        this.chartDefinition.dataSource = \"svg_both_orange\";\r\n    }\r\n} "
+     },
+     {
+      "name": "postExecution",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "postFetch",
+      "type": "JavaScript",
+      "value": ""
+     }
+    ],
+    "rowName": "SVG Component",
+    "type": "ComponentsSvgComponent",
+    "typeDesc": "SVG Component"
+   }
+  ]
+ },
+ "datasources": {
+  "rows": [
+   {
+    "id": "SCRIPTING",
+    "name": "SCRIPTING Queries",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "Group",
+      "type": "Label",
+      "value": "SCRIPTING Queries"
+     }
+    ],
+    "type": "Label",
+    "typeDesc": "<i>Group</i>"
+   },
+   {
+    "id": "bd7646ee-5295-07ad-b315-662bc346ce87",
+    "meta": "CDA",
+    "meta_conntype": "scripting.scripting",
+    "meta_datype": "jsonScriptable",
+    "parent": "SCRIPTING",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "svg_both_red"
+     },
+     {
+      "name": "initscript",
+      "type": "String",
+      "value": ""
+     },
+     {
+      "name": "language",
+      "type": "String",
+      "value": "beanshell"
+     },
+     {
+      "name": "access",
+      "type": "Access",
+      "value": "public"
+     },
+     {
+      "name": "query",
+      "type": "JsonScriptableQuery",
+      "value": "{\r\n   \"resultset\":[\r\n      [\"style\", \"idxpto\", \"fill\", \"red\"],\r\n      [\"text\", \"textid\", \"-\", \"Red\"]\r\n   ],\r\n \r\n   \"metadata\":[\r\n      {\"colIndex\":0,\"colType\":\"String\",\"colName\":\"changeType\"},\r\n      {\"colIndex\":0,\"colType\":\"String\",\"colName\":\"svgElementID\"},\r\n      {\"colIndex\":1,\"colType\":\"String\",\"colName\":\"styleProperty\"},\r\n      {\"colIndex\":2,\"colType\":\"String\",\"colName\":\"value\"}\r\n   ]\r\n}"
+     },
+     {
+      "name": "parameters",
+      "type": "CdaParameters",
+      "value": "[]"
+     },
+     {
+      "name": "cdacalculatedcolumns",
+      "type": "CdaCalculatedColumnsArray",
+      "value": "[]"
+     },
+     {
+      "name": "cdacolumns",
+      "type": "CdaColumnsArray",
+      "value": "[]"
+     },
+     {
+      "name": "output",
+      "type": "IndexArray",
+      "value": "[]"
+     },
+     {
+      "name": "outputMode",
+      "type": "OutputMode",
+      "value": "include"
+     },
+     {
+      "name": "cacheKeys",
+      "type": "CacheKeysValues",
+      "value": "[]"
+     },
+     {
+      "name": "cacheDuration",
+      "type": "Integer",
+      "value": 3600
+     },
+     {
+      "name": "cache",
+      "type": "Boolean",
+      "value": "true"
+     }
+    ],
+    "rowName": "jsonScriptable over scripting",
+    "type": "ComponentsjsonScriptable_scripting",
+    "typeDesc": "jsonScriptable over scripting"
+   },
+   {
+    "id": "e8e0ba0a-e2ef-9f9d-399f-65f835afb498",
+    "meta": "CDA",
+    "meta_conntype": "scripting.scripting",
+    "meta_datype": "jsonScriptable",
+    "parent": "SCRIPTING",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "svg_both_orange"
+     },
+     {
+      "name": "initscript",
+      "type": "String",
+      "value": ""
+     },
+     {
+      "name": "language",
+      "type": "String",
+      "value": "beanshell"
+     },
+     {
+      "name": "access",
+      "type": "Access",
+      "value": "public"
+     },
+     {
+      "name": "query",
+      "type": "JsonScriptableQuery",
+      "value": "{\r\n   \"resultset\":[\r\n      [\"style\", \"idxpto\", \"fill\", \"orange\"],\r\n      [\"text\", \"textid\", \"-\", \"Orange\"]\r\n   ],\r\n \r\n   \"metadata\":[\r\n      {\"colIndex\":0,\"colType\":\"String\",\"colName\":\"changeType\"},\r\n      {\"colIndex\":0,\"colType\":\"String\",\"colName\":\"svgElementID\"},\r\n      {\"colIndex\":1,\"colType\":\"String\",\"colName\":\"styleProperty\"},\r\n      {\"colIndex\":2,\"colType\":\"String\",\"colName\":\"value\"}\r\n   ]\r\n}"
+     },
+     {
+      "name": "parameters",
+      "type": "CdaParameters",
+      "value": "[]"
+     },
+     {
+      "name": "cdacalculatedcolumns",
+      "type": "CdaCalculatedColumnsArray",
+      "value": "[]"
+     },
+     {
+      "name": "cdacolumns",
+      "type": "CdaColumnsArray",
+      "value": "[]"
+     },
+     {
+      "name": "output",
+      "type": "IndexArray",
+      "value": "[]"
+     },
+     {
+      "name": "outputMode",
+      "type": "OutputMode",
+      "value": "include"
+     },
+     {
+      "name": "cacheKeys",
+      "type": "CacheKeysValues",
+      "value": "[]"
+     },
+     {
+      "name": "cacheDuration",
+      "type": "Integer",
+      "value": 3600
+     },
+     {
+      "name": "cache",
+      "type": "Boolean",
+      "value": "true"
+     }
+    ],
+    "rowName": "jsonScriptable over scripting",
+    "type": "ComponentsjsonScriptable_scripting",
+    "typeDesc": "jsonScriptable over scripting"
+   },
+   {
+    "id": "a9eb5adc-7cb2-f9b2-ac3b-324fc0b663b4",
+    "meta": "CDA",
+    "meta_conntype": "scripting.scripting",
+    "meta_datype": "jsonScriptable",
+    "parent": "SCRIPTING",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "svg_color_orange"
+     },
+     {
+      "name": "initscript",
+      "type": "String",
+      "value": ""
+     },
+     {
+      "name": "language",
+      "type": "String",
+      "value": "beanshell"
+     },
+     {
+      "name": "access",
+      "type": "Access",
+      "value": "public"
+     },
+     {
+      "name": "query",
+      "type": "JsonScriptableQuery",
+      "value": "{\r\n   \"resultset\":[\r\n      [\"style\", \"idxpto\", \"fill\", \"orange\"]\r\n   ],\r\n \r\n   \"metadata\":[\r\n      {\"colIndex\":0,\"colType\":\"String\",\"colName\":\"changeType\"},\r\n      {\"colIndex\":0,\"colType\":\"String\",\"colName\":\"svgElementID\"},\r\n      {\"colIndex\":1,\"colType\":\"String\",\"colName\":\"styleProperty\"},\r\n      {\"colIndex\":2,\"colType\":\"String\",\"colName\":\"value\"}\r\n   ]\r\n}"
+     },
+     {
+      "name": "parameters",
+      "type": "CdaParameters",
+      "value": "[]"
+     },
+     {
+      "name": "cdacalculatedcolumns",
+      "type": "CdaCalculatedColumnsArray",
+      "value": "[]"
+     },
+     {
+      "name": "cdacolumns",
+      "type": "CdaColumnsArray",
+      "value": "[]"
+     },
+     {
+      "name": "output",
+      "type": "IndexArray",
+      "value": "[]"
+     },
+     {
+      "name": "outputMode",
+      "type": "OutputMode",
+      "value": "include"
+     },
+     {
+      "name": "cacheKeys",
+      "type": "CacheKeysValues",
+      "value": "[]"
+     },
+     {
+      "name": "cacheDuration",
+      "type": "Integer",
+      "value": 3600
+     },
+     {
+      "name": "cache",
+      "type": "Boolean",
+      "value": "true"
+     }
+    ],
+    "rowName": "jsonScriptable over scripting",
+    "type": "ComponentsjsonScriptable_scripting",
+    "typeDesc": "jsonScriptable over scripting"
+   },
+   {
+    "id": "ba9b07d0-69d3-7591-ce6e-da8120a5e3b6",
+    "meta": "CDA",
+    "meta_conntype": "scripting.scripting",
+    "meta_datype": "jsonScriptable",
+    "parent": "SCRIPTING",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "svg_color_red"
+     },
+     {
+      "name": "initscript",
+      "type": "String",
+      "value": ""
+     },
+     {
+      "name": "language",
+      "type": "String",
+      "value": "beanshell"
+     },
+     {
+      "name": "access",
+      "type": "Access",
+      "value": "public"
+     },
+     {
+      "name": "query",
+      "type": "JsonScriptableQuery",
+      "value": "{\r\n   \"resultset\":[\r\n      [\"style\", \"idxpto\", \"fill\", \"red\"]\r\n   ],\r\n \r\n   \"metadata\":[\r\n      {\"colIndex\":0,\"colType\":\"String\",\"colName\":\"changeType\"},\r\n      {\"colIndex\":0,\"colType\":\"String\",\"colName\":\"svgElementID\"},\r\n      {\"colIndex\":1,\"colType\":\"String\",\"colName\":\"styleProperty\"},\r\n      {\"colIndex\":2,\"colType\":\"String\",\"colName\":\"value\"}\r\n   ]\r\n}"
+     },
+     {
+      "name": "parameters",
+      "type": "CdaParameters",
+      "value": "[]"
+     },
+     {
+      "name": "cdacalculatedcolumns",
+      "type": "CdaCalculatedColumnsArray",
+      "value": "[]"
+     },
+     {
+      "name": "cdacolumns",
+      "type": "CdaColumnsArray",
+      "value": "[]"
+     },
+     {
+      "name": "output",
+      "type": "IndexArray",
+      "value": "[]"
+     },
+     {
+      "name": "outputMode",
+      "type": "OutputMode",
+      "value": "include"
+     },
+     {
+      "name": "cacheKeys",
+      "type": "CacheKeysValues",
+      "value": "[]"
+     },
+     {
+      "name": "cacheDuration",
+      "type": "Integer",
+      "value": 3600
+     },
+     {
+      "name": "cache",
+      "type": "Boolean",
+      "value": "true"
+     }
+    ],
+    "rowName": "jsonScriptable over scripting",
+    "type": "ComponentsjsonScriptable_scripting",
+    "typeDesc": "jsonScriptable over scripting"
+   },
+   {
+    "id": "e6c3c9d9-a900-1631-b4d5-1a9217b2212f",
+    "meta": "CDA",
+    "meta_conntype": "scripting.scripting",
+    "meta_datype": "jsonScriptable",
+    "parent": "SCRIPTING",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "svg_text_orange"
+     },
+     {
+      "name": "initscript",
+      "type": "String",
+      "value": ""
+     },
+     {
+      "name": "language",
+      "type": "String",
+      "value": "beanshell"
+     },
+     {
+      "name": "access",
+      "type": "Access",
+      "value": "public"
+     },
+     {
+      "name": "query",
+      "type": "JsonScriptableQuery",
+      "value": "{\r\n   \"resultset\":[\r\n      [\"text\", \"textid\", \"-\", \"Orange\"]\r\n   ],\r\n \r\n   \"metadata\":[\r\n      {\"colIndex\":0,\"colType\":\"String\",\"colName\":\"changeType\"},\r\n      {\"colIndex\":0,\"colType\":\"String\",\"colName\":\"svgElementID\"},\r\n      {\"colIndex\":1,\"colType\":\"String\",\"colName\":\"styleProperty\"},\r\n      {\"colIndex\":2,\"colType\":\"String\",\"colName\":\"value\"}\r\n   ]\r\n}"
+     },
+     {
+      "name": "parameters",
+      "type": "CdaParameters",
+      "value": "[]"
+     },
+     {
+      "name": "cdacalculatedcolumns",
+      "type": "CdaCalculatedColumnsArray",
+      "value": "[]"
+     },
+     {
+      "name": "cdacolumns",
+      "type": "CdaColumnsArray",
+      "value": "[]"
+     },
+     {
+      "name": "output",
+      "type": "IndexArray",
+      "value": "[]"
+     },
+     {
+      "name": "outputMode",
+      "type": "OutputMode",
+      "value": "include"
+     },
+     {
+      "name": "cacheKeys",
+      "type": "CacheKeysValues",
+      "value": "[]"
+     },
+     {
+      "name": "cacheDuration",
+      "type": "Integer",
+      "value": 3600
+     },
+     {
+      "name": "cache",
+      "type": "Boolean",
+      "value": "true"
+     }
+    ],
+    "rowName": "jsonScriptable over scripting",
+    "type": "ComponentsjsonScriptable_scripting",
+    "typeDesc": "jsonScriptable over scripting"
+   },
+   {
+    "id": "316174fe-88ad-2082-f351-0a6053ecb2bb",
+    "meta": "CDA",
+    "meta_conntype": "scripting.scripting",
+    "meta_datype": "jsonScriptable",
+    "parent": "SCRIPTING",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "svg_text_red"
+     },
+     {
+      "name": "initscript",
+      "type": "String",
+      "value": ""
+     },
+     {
+      "name": "language",
+      "type": "String",
+      "value": "beanshell"
+     },
+     {
+      "name": "access",
+      "type": "Access",
+      "value": "public"
+     },
+     {
+      "name": "query",
+      "type": "JsonScriptableQuery",
+      "value": "{\r\n   \"resultset\":[\r\n      [\"text\", \"textid\", \"-\", \"Red\"]\r\n   ],\r\n \r\n   \"metadata\":[\r\n      {\"colIndex\":0,\"colType\":\"String\",\"colName\":\"changeType\"},\r\n      {\"colIndex\":0,\"colType\":\"String\",\"colName\":\"svgElementID\"},\r\n      {\"colIndex\":1,\"colType\":\"String\",\"colName\":\"styleProperty\"},\r\n      {\"colIndex\":2,\"colType\":\"String\",\"colName\":\"value\"}\r\n   ]\r\n}"
+     },
+     {
+      "name": "parameters",
+      "type": "CdaParameters",
+      "value": "[]"
+     },
+     {
+      "name": "cdacalculatedcolumns",
+      "type": "CdaCalculatedColumnsArray",
+      "value": "[]"
+     },
+     {
+      "name": "cdacolumns",
+      "type": "CdaColumnsArray",
+      "value": "[]"
+     },
+     {
+      "name": "output",
+      "type": "IndexArray",
+      "value": "[]"
+     },
+     {
+      "name": "outputMode",
+      "type": "OutputMode",
+      "value": "include"
+     },
+     {
+      "name": "cacheKeys",
+      "type": "CacheKeysValues",
+      "value": "[]"
+     },
+     {
+      "name": "cacheDuration",
+      "type": "Integer",
+      "value": 3600
+     },
+     {
+      "name": "cache",
+      "type": "Boolean",
+      "value": "true"
+     }
+    ],
+    "rowName": "jsonScriptable over scripting",
+    "type": "ComponentsjsonScriptable_scripting",
+    "typeDesc": "jsonScriptable over scripting"
+   }
+  ]
+ },
+ "filename": "/public/plugin-samples/sample-svg-component/sample-svg-component.cdfde",
+ "layout": {
+  "rows": [
+   {
+    "id": "9f74d952-edbe-5ac8-5276-402d9094b38e",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "template"
+     },
+     {
+      "name": "resourceFile",
+      "type": "ResourceFile",
+      "value": "${solution:Resources/template.css}"
+     },
+     {
+      "name": "resourceType",
+      "type": "Label",
+      "value": "Css"
+     }
+    ],
+    "type": "LayoutResourceFile",
+    "typeDesc": "Resource"
+   },
+   {
+    "id": "75b0893b-b440-16fa-21d8-6a34f5e49989",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "rowContent"
+     },
+     {
+      "name": "height",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "backgroundColor",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "roundCorners",
+      "type": "RoundCorners",
+      "value": ""
+     },
+     {
+      "name": "textAlign",
+      "type": "TextAlign",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": "rowContent"
+     }
+    ],
+    "type": "LayoutRow",
+    "typeDesc": "Row"
+   },
+   {
+    "id": "470be90d-d857-ad75-587d-f9d6fdf591b1",
+    "parent": "75b0893b-b440-16fa-21d8-6a34f5e49989",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "colTitle"
+     },
+     {
+      "name": "columnSpan",
+      "type": "Integer",
+      "value": "24"
+     },
+     {
+      "name": "columnPrepend",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "columnAppend",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "columnPrependTop",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "columnAppendBottom",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "columnBorder",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "columnBigBorder",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "height",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "backgroundColor",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "roundCorners",
+      "type": "RoundCorners",
+      "value": ""
+     },
+     {
+      "name": "textAlign",
+      "type": "TextAlign",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": "colTitle"
+     }
+    ],
+    "type": "LayoutColumn",
+    "typeDesc": "Column"
+   },
+   {
+    "id": "a651b48a-a778-9c93-de45-cc55ff289ed5",
+    "parent": "470be90d-d857-ad75-587d-f9d6fdf591b1",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "rowTitle"
+     },
+     {
+      "name": "height",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "backgroundColor",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "roundCorners",
+      "type": "RoundCorners",
+      "value": ""
+     },
+     {
+      "name": "textAlign",
+      "type": "TextAlign",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": "header"
+     }
+    ],
+    "type": "LayoutRow",
+    "typeDesc": "Row"
+   },
+   {
+    "id": "a7900c16-b9b8-1950-45d6-602e265fde9c",
+    "parent": "a651b48a-a778-9c93-de45-cc55ff289ed5",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "htmlTitle"
+     },
+     {
+      "name": "html",
+      "type": "Html",
+      "value": "SVG Component Reference "
+     },
+     {
+      "name": "fontSize",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "color",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutHtml",
+    "typeDesc": "Html"
+   },
+   {
+    "id": "80b47d6d-c681-bb55-fd60-dc1da53296e1",
+    "parent": "75b0893b-b440-16fa-21d8-6a34f5e49989",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "colContent"
+     },
+     {
+      "name": "columnSpan",
+      "type": "Integer",
+      "value": "24"
+     },
+     {
+      "name": "columnPrepend",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "columnAppend",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "columnPrependTop",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "columnAppendBottom",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "columnBorder",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "columnBigBorder",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "height",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "backgroundColor",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "roundCorners",
+      "type": "RoundCorners",
+      "value": ""
+     },
+     {
+      "name": "textAlign",
+      "type": "TextAlign",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": "colContent"
+     }
+    ],
+    "type": "LayoutColumn",
+    "typeDesc": "Column"
+   },
+   {
+    "id": "2520ca48-be5c-4944-04fd-775c3fe40e1a",
+    "parent": "80b47d6d-c681-bb55-fd60-dc1da53296e1",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "rowDescriptionTitle"
+     },
+     {
+      "name": "height",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "backgroundColor",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "roundCorners",
+      "type": "RoundCorners",
+      "value": ""
+     },
+     {
+      "name": "textAlign",
+      "type": "TextAlign",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": "h2"
+     }
+    ],
+    "type": "LayoutRow",
+    "typeDesc": "Row"
+   },
+   {
+    "id": "3ac849d0-c53b-f4b1-5792-329794a61405",
+    "parent": "2520ca48-be5c-4944-04fd-775c3fe40e1a",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "htmlDescriptionTitle"
+     },
+     {
+      "name": "html",
+      "type": "Html",
+      "value": "Description "
+     },
+     {
+      "name": "fontSize",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "color",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutHtml",
+    "typeDesc": "Html"
+   },
+   {
+    "id": "d031e779-4b1b-fe2f-83cf-9107215604d9",
+    "parent": "80b47d6d-c681-bb55-fd60-dc1da53296e1",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "DescriptionText"
+     },
+     {
+      "name": "height",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "backgroundColor",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "roundCorners",
+      "type": "RoundCorners",
+      "value": ""
+     },
+     {
+      "name": "textAlign",
+      "type": "TextAlign",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutRow",
+    "typeDesc": "Row"
+   },
+   {
+    "id": "9e7ea44d-b74c-020c-b34c-2a893d8550c5",
+    "parent": "d031e779-4b1b-fe2f-83cf-9107215604d9",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "htmlDescription"
+     },
+     {
+      "name": "html",
+      "type": "Html",
+      "value": "<p>\nAbility to change SVG style atributes or text element strings, according to values submitted by it's own datasource.\n</p>\n "
+     },
+     {
+      "name": "fontSize",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "color",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutHtml",
+    "typeDesc": "Html"
+   },
+   {
+    "id": "90022638-5aa6-8f0d-0d16-5e44c6e748df",
+    "parent": "80b47d6d-c681-bb55-fd60-dc1da53296e1",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "rowStrategyTitle"
+     },
+     {
+      "name": "height",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "backgroundColor",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "roundCorners",
+      "type": "RoundCorners",
+      "value": ""
+     },
+     {
+      "name": "textAlign",
+      "type": "TextAlign",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": "h2"
+     }
+    ],
+    "type": "LayoutRow",
+    "typeDesc": "Row"
+   },
+   {
+    "id": "8132144e-e528-aede-7f0c-3b798d3ecbdb",
+    "parent": "90022638-5aa6-8f0d-0d16-5e44c6e748df",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "htmlStrategyTitle"
+     },
+     {
+      "name": "html",
+      "type": "Html",
+      "value": "Implemented Strategy "
+     },
+     {
+      "name": "fontSize",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "color",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutHtml",
+    "typeDesc": "Html"
+   },
+   {
+    "id": "9f37928f-37a9-7aaf-901f-9187bebdebb5",
+    "parent": "80b47d6d-c681-bb55-fd60-dc1da53296e1",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "rowStrategy"
+     },
+     {
+      "name": "height",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "backgroundColor",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "roundCorners",
+      "type": "RoundCorners",
+      "value": ""
+     },
+     {
+      "name": "textAlign",
+      "type": "TextAlign",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutRow",
+    "typeDesc": "Row"
+   },
+   {
+    "id": "385362a2-febf-9c69-b3db-79176495b0ec",
+    "parent": "9f37928f-37a9-7aaf-901f-9187bebdebb5",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "htmlStrategy"
+     },
+     {
+      "name": "html",
+      "type": "Html",
+      "value": "<p>\nThe component strategy follows these steps:\n</p> \n<p>\n    <ol>\n        <li>publish the whole SVG content into a DOM element, using the HTML object tag;</li>\n        <li>after SVG content has been loaded into the DOM, for each record on the datasource resultset:</li>\n        <ol>\n            <li>finds the SVG element that has to be changed, through its own \"id\" attribute;</li>\n            <li>inserts/changes the attribute/text directly on the available SVG element.</li>\n        </ol>\n    </ol>\n</p> "
+     },
+     {
+      "name": "fontSize",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "color",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutHtml",
+    "typeDesc": "Html"
+   },
+   {
+    "id": "adc2f189-2705-0396-7258-358dbe0eb81b",
+    "parent": "80b47d6d-c681-bb55-fd60-dc1da53296e1",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "rowParametersTitle"
+     },
+     {
+      "name": "height",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "backgroundColor",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "roundCorners",
+      "type": "RoundCorners",
+      "value": ""
+     },
+     {
+      "name": "textAlign",
+      "type": "TextAlign",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": "h2"
+     }
+    ],
+    "type": "LayoutRow",
+    "typeDesc": "Row"
+   },
+   {
+    "id": "6ceb1c8b-1d83-deea-ba4a-843faed0b941",
+    "parent": "adc2f189-2705-0396-7258-358dbe0eb81b",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "htmlParametersTitle"
+     },
+     {
+      "name": "html",
+      "type": "Html",
+      "value": "Component Parameters "
+     },
+     {
+      "name": "fontSize",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "color",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutHtml",
+    "typeDesc": "Html"
+   },
+   {
+    "id": "f2a00a52-ed8c-72b3-a021-3ab675142bbf",
+    "parent": "80b47d6d-c681-bb55-fd60-dc1da53296e1",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "rowParameters"
+     },
+     {
+      "name": "height",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "backgroundColor",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "roundCorners",
+      "type": "RoundCorners",
+      "value": ""
+     },
+     {
+      "name": "textAlign",
+      "type": "TextAlign",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutRow",
+    "typeDesc": "Row"
+   },
+   {
+    "id": "47913407-819f-93fe-1c96-2e0a533cf582",
+    "parent": "f2a00a52-ed8c-72b3-a021-3ab675142bbf",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "htmlParameters"
+     },
+     {
+      "name": "html",
+      "type": "Html",
+      "value": "<p>\nThis component expects information from the following parameters:\n</p> \n<p>\n    <ul>\n        <li><b>URL</b> - the direct URL to the SVG;</li>\n        <li><b>Datasource</b> - this will specify the datasource that will command the operations;</li>\n        <li><b>Keep Image</b> - adds the possibility to keep SVG on DOM after a component reload/refresh;</li>\n        <li><b>callBackDraw</b> - not mandatory; it allows you to define a function that will be called after all component operations are performed.</li>\n    </ul>\n</p> "
+     },
+     {
+      "name": "fontSize",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "color",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutHtml",
+    "typeDesc": "Html"
+   },
+   {
+    "id": "152537d2-8828-5cce-eb63-fa3f761e2363",
+    "parent": "80b47d6d-c681-bb55-fd60-dc1da53296e1",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "rowDatasourceTitle"
+     },
+     {
+      "name": "height",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "backgroundColor",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "roundCorners",
+      "type": "RoundCorners",
+      "value": ""
+     },
+     {
+      "name": "textAlign",
+      "type": "TextAlign",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": "h2"
+     }
+    ],
+    "type": "LayoutRow",
+    "typeDesc": "Row"
+   },
+   {
+    "id": "cb3c8efe-7036-20e5-2f25-39d858a16a1b",
+    "parent": "152537d2-8828-5cce-eb63-fa3f761e2363",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "htmlDatasourceTitle"
+     },
+     {
+      "name": "html",
+      "type": "Html",
+      "value": "Datasource output format "
+     },
+     {
+      "name": "fontSize",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "color",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutHtml",
+    "typeDesc": "Html"
+   },
+   {
+    "id": "970ca514-3e7e-86bd-7d7d-bdbd9a5a4521",
+    "parent": "80b47d6d-c681-bb55-fd60-dc1da53296e1",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "rowDatasource"
+     },
+     {
+      "name": "height",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "backgroundColor",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "roundCorners",
+      "type": "RoundCorners",
+      "value": ""
+     },
+     {
+      "name": "textAlign",
+      "type": "TextAlign",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutRow",
+    "typeDesc": "Row"
+   },
+   {
+    "id": "14f32bce-adb7-d69a-d344-d245f3c6da9f",
+    "parent": "970ca514-3e7e-86bd-7d7d-bdbd9a5a4521",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "htmlDatasource"
+     },
+     {
+      "name": "html",
+      "type": "Html",
+      "value": "<p>\nTo perform correctly the Datasource resultset needs the following columns (no specific order):\n</p> \n<p>\n    <ul>\n        <li><b>svgElementID</b> - the SVG element id where we want to perform changes;</li>\n        <li><b>changeType</b> - the type of change we want to perform: <i>style</i> for styling changes, <i>text</i> for text updates;</li>\n        <li><b>styleProperty</b> - the style property to change (it will be ignored for <i>text</i> type changes);</li>\n        <li><b>value</b> - the value that will be added/appended on the SVG element.</li>\n    </ul>\n</p> "
+     },
+     {
+      "name": "fontSize",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "color",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutHtml",
+    "typeDesc": "Html"
+   },
+   {
+    "id": "6d653d64-0c81-b4d4-3219-11f92605ee0a",
+    "parent": "80b47d6d-c681-bb55-fd60-dc1da53296e1",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "rowExampleTitle"
+     },
+     {
+      "name": "height",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "backgroundColor",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "roundCorners",
+      "type": "RoundCorners",
+      "value": ""
+     },
+     {
+      "name": "textAlign",
+      "type": "TextAlign",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": "h2"
+     }
+    ],
+    "type": "LayoutRow",
+    "typeDesc": "Row"
+   },
+   {
+    "id": "ce35bb53-79e2-515f-da51-3369b8fabcb3",
+    "parent": "6d653d64-0c81-b4d4-3219-11f92605ee0a",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "htmlExampleTitle"
+     },
+     {
+      "name": "html",
+      "type": "Html",
+      "value": "Example "
+     },
+     {
+      "name": "fontSize",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "color",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutHtml",
+    "typeDesc": "Html"
+   },
+   {
+    "id": "7e15baf1-9a32-a3b4-2380-c976c822c587",
+    "parent": "80b47d6d-c681-bb55-fd60-dc1da53296e1",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "rowExampleDescription"
+     },
+     {
+      "name": "height",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "backgroundColor",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "roundCorners",
+      "type": "RoundCorners",
+      "value": ""
+     },
+     {
+      "name": "textAlign",
+      "type": "TextAlign",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutRow",
+    "typeDesc": "Row"
+   },
+   {
+    "id": "178b7dee-fc28-750a-db4e-5bd13940f58d",
+    "parent": "7e15baf1-9a32-a3b4-2380-c976c822c587",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "htmlExampleDescription"
+     },
+     {
+      "name": "html",
+      "type": "Html",
+      "value": "<p>\nThis simple demo is composed by four images, all derived from the same svg image: \n<ul>\n    <li>the first represents the svg in is basic form;</li>\n    <li>the second represents the changes applied to the image color;</li>\n    <li>the third has changes applied to the text element;</li>\n    <li>and on the last one you can check both changes.</li>\n</ul>\nYou can control the changes using the filter. Try it!\n</p> \n "
+     },
+     {
+      "name": "fontSize",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "color",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutHtml",
+    "typeDesc": "Html"
+   },
+   {
+    "id": "29ef7103-78d2-6070-8ca1-7f2b9864a60c",
+    "parent": "80b47d6d-c681-bb55-fd60-dc1da53296e1",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "rowExampleFilter"
+     },
+     {
+      "name": "height",
+      "type": "Integer",
+      "value": "50"
+     },
+     {
+      "name": "backgroundColor",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "roundCorners",
+      "type": "RoundCorners",
+      "value": ""
+     },
+     {
+      "name": "textAlign",
+      "type": "TextAlign",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutRow",
+    "typeDesc": "Row"
+   },
+   {
+    "id": "66b705a6-ea55-e05d-3683-fb95a8c729aa",
+    "parent": "29ef7103-78d2-6070-8ca1-7f2b9864a60c",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "colFilter"
+     },
+     {
+      "name": "columnSpan",
+      "type": "Integer",
+      "value": "5"
+     },
+     {
+      "name": "columnPrepend",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "columnAppend",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "columnPrependTop",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "columnAppendBottom",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "columnBorder",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "columnBigBorder",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "height",
+      "type": "Integer",
+      "value": "50"
+     },
+     {
+      "name": "backgroundColor",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "roundCorners",
+      "type": "RoundCorners",
+      "value": ""
+     },
+     {
+      "name": "textAlign",
+      "type": "TextAlign",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutColumn",
+    "typeDesc": "Column"
+   },
+   {
+    "id": "532f80d3-d8c8-7055-d77c-f37bcf2713b8",
+    "parent": "80b47d6d-c681-bb55-fd60-dc1da53296e1",
+    "properties": [
+     {
+      "name": "height",
+      "type": "Integer",
+      "value": "20"
+     },
+     {
+      "name": "backgroundColor",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutSpace",
+    "typeDesc": "Space"
+   },
+   {
+    "id": "afb900b4-8546-6eeb-bc91-9be4c8604f7f",
+    "parent": "80b47d6d-c681-bb55-fd60-dc1da53296e1",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "rowSvgs"
+     },
+     {
+      "name": "height",
+      "type": "Integer",
+      "value": "70"
+     },
+     {
+      "name": "backgroundColor",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "roundCorners",
+      "type": "RoundCorners",
+      "value": ""
+     },
+     {
+      "name": "textAlign",
+      "type": "TextAlign",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutRow",
+    "typeDesc": "Row"
+   },
+   {
+    "id": "aba5ba66-c01c-da74-6bc2-0acb563eed67",
+    "parent": "afb900b4-8546-6eeb-bc91-9be4c8604f7f",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "col_orig"
+     },
+     {
+      "name": "columnSpan",
+      "type": "Integer",
+      "value": 5
+     },
+     {
+      "name": "columnPrepend",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "columnAppend",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "columnPrependTop",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "columnAppendBottom",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "columnBorder",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "columnBigBorder",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "height",
+      "type": "Integer",
+      "value": "40"
+     },
+     {
+      "name": "backgroundColor",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "roundCorners",
+      "type": "RoundCorners",
+      "value": ""
+     },
+     {
+      "name": "textAlign",
+      "type": "TextAlign",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutColumn",
+    "typeDesc": "Column"
+   },
+   {
+    "id": "e3438caa-98fd-6347-caf8-1c38c3de2ad3",
+    "parent": "aba5ba66-c01c-da74-6bc2-0acb563eed67",
+    "properties": [
+     {
+      "name": "url",
+      "type": "String",
+      "value": "people_icon.svg"
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutImage",
+    "typeDesc": "Image"
+   },
+   {
+    "id": "775d832a-f28d-6132-837f-fb3b8c88770f",
+    "parent": "afb900b4-8546-6eeb-bc91-9be4c8604f7f",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "col_svgColor"
+     },
+     {
+      "name": "columnSpan",
+      "type": "Integer",
+      "value": 5
+     },
+     {
+      "name": "columnPrepend",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "columnAppend",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "columnPrependTop",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "columnAppendBottom",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "columnBorder",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "columnBigBorder",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "height",
+      "type": "Integer",
+      "value": "40"
+     },
+     {
+      "name": "backgroundColor",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "roundCorners",
+      "type": "RoundCorners",
+      "value": ""
+     },
+     {
+      "name": "textAlign",
+      "type": "TextAlign",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutColumn",
+    "typeDesc": "Column"
+   },
+   {
+    "id": "15090d0c-40f7-29f7-242b-a9a657dd6267",
+    "parent": "afb900b4-8546-6eeb-bc91-9be4c8604f7f",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "col_svgText"
+     },
+     {
+      "name": "columnSpan",
+      "type": "Integer",
+      "value": 5
+     },
+     {
+      "name": "columnPrepend",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "columnAppend",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "columnPrependTop",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "columnAppendBottom",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "columnBorder",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "columnBigBorder",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "height",
+      "type": "Integer",
+      "value": "40"
+     },
+     {
+      "name": "backgroundColor",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "roundCorners",
+      "type": "RoundCorners",
+      "value": ""
+     },
+     {
+      "name": "textAlign",
+      "type": "TextAlign",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutColumn",
+    "typeDesc": "Column"
+   },
+   {
+    "id": "3e9895d5-d735-5fd2-1b4f-f903031b0f4f",
+    "parent": "afb900b4-8546-6eeb-bc91-9be4c8604f7f",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "col_svgBoth"
+     },
+     {
+      "name": "columnSpan",
+      "type": "Integer",
+      "value": 5
+     },
+     {
+      "name": "columnPrepend",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "columnAppend",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "columnPrependTop",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "columnAppendBottom",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "columnBorder",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "columnBigBorder",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "height",
+      "type": "Integer",
+      "value": "40"
+     },
+     {
+      "name": "backgroundColor",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "roundCorners",
+      "type": "RoundCorners",
+      "value": ""
+     },
+     {
+      "name": "textAlign",
+      "type": "TextAlign",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutColumn",
+    "typeDesc": "Column"
+   },
+   {
+    "id": "812b584f-29e7-fa60-22d8-b54a190c3db7",
+    "parent": "80b47d6d-c681-bb55-fd60-dc1da53296e1",
+    "properties": [
+     {
+      "name": "height",
+      "type": "Integer",
+      "value": "20"
+     },
+     {
+      "name": "backgroundColor",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutSpace",
+    "typeDesc": "Space"
+   },
+   {
+    "id": "dfc9797e-b395-a7ff-eb18-1e077ae295f9",
+    "parent": "80b47d6d-c681-bb55-fd60-dc1da53296e1",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "rowExampleNotes"
+     },
+     {
+      "name": "height",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "backgroundColor",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "roundCorners",
+      "type": "RoundCorners",
+      "value": ""
+     },
+     {
+      "name": "textAlign",
+      "type": "TextAlign",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutRow",
+    "typeDesc": "Row"
+   },
+   {
+    "id": "aa7d67c5-a9ec-719c-dd12-8fa6a7d5174b",
+    "parent": "dfc9797e-b395-a7ff-eb18-1e077ae295f9",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "htmlExampleNotes"
+     },
+     {
+      "name": "html",
+      "type": "Html",
+      "value": "<p>\n<b>Note</b>: Beyond other tests you may want to perform, check that the third svg image is the only one that is loaded after changes in filter - it's the only that has <i>Keep Image</i> false.\n</p> \n "
+     },
+     {
+      "name": "fontSize",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "color",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutHtml",
+    "typeDesc": "Html"
+   }
+  ],
+  "title": "CDF - Sample structure"
+ }
+}

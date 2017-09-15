@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:ExportManifest xmlns:ns2="http://www.pentaho.com/schema/">
+    <ExportManifestInformation exportDate="29-06-2017 01:24:13 WEST" exportBy="admin" rootFolder="/public/plugin-samples/" manifestVersion="2"/>
+    <ExportManifestEntity path="sample-svg-component">
+        <ExportManifestProperty>
+            <EntityMetaData name="sample-svg-component" createdDate="2017-06-29T11:15:52.366+01:00" isFolder="true" path="sample-svg-component" isHidden="false" locale="en_US" title="sample-svg-component"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="sample-svg-component/Resources">
+        <ExportManifestProperty>
+            <EntityMetaData name="Resources" createdDate="2017-06-29T11:15:52.490+01:00" isFolder="true" path="sample-svg-component/Resources" isHidden="false" locale="en_US" title="Resources"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="sample-svg-component/Resources/template.css">
+        <ExportManifestProperty>
+            <EntityMetaData name="template.css" createdDate="2017-06-29T11:15:52.558+01:00" isFolder="false" path="sample-svg-component/Resources/template.css" isHidden="true" locale="en_US" title="template"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="sample-svg-component/people_icon.svg">
+        <ExportManifestProperty>
+            <EntityMetaData name="people_icon.svg" createdDate="2017-06-29T11:15:52.735+01:00" isFolder="false" path="sample-svg-component/people_icon.svg" isHidden="true" locale="en_US" title="people_icon"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="sample-svg-component/sample-svg-component.cda">
+        <ExportManifestProperty>
+            <EntityMetaData name="sample-svg-component.cda" createdDate="2017-06-29T11:15:52.961+01:00" isFolder="false" path="sample-svg-component/sample-svg-component.cda" isHidden="false" locale="en_US" title="sample-svg-component"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="sample-svg-component/sample-svg-component.cdfde">
+        <ExportManifestProperty>
+            <EntityMetaData name="sample-svg-component.cdfde" createdDate="2017-06-29T11:15:53.044+01:00" isFolder="false" path="sample-svg-component/sample-svg-component.cdfde" isHidden="false" locale="en_US" title="sample-svg-component"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="sample-svg-component/sample-svg-component.wcdf">
+        <ExportManifestProperty>
+            <EntityMetaData name="sample-svg-component.wcdf" createdDate="2017-06-29T11:15:52.851+01:00" isFolder="false" path="sample-svg-component/sample-svg-component.wcdf" isHidden="false" locale="en_US" title="sample-svg-component"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+</ns2:ExportManifest>

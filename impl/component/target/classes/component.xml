@@ -1,0 +1,61 @@
+<DesignerComponent>
+	<Header>
+		<Name>SVG Component</Name>
+		<IName>SvgComponent</IName>
+		<Description>SVG Component</Description>
+		<Category>CUSTOMCOMPONENTS</Category>
+		<CatDescription>Custom</CatDescription>
+		<Type>PalleteEntry</Type>
+		<Version>1.0</Version>
+	</Header>
+	<Contents>
+		<Model>
+			<Property type="string">url</Property>
+			<Property>keepImage</Property>
+			<Property type="boolean">executeAtStart</Property>
+			<Property type="function">postFetch</Property>
+			<Property type="string">htmlObject</Property>
+			<Property name="parameters">xActionArrayParameter</Property>
+            <Definition name="chartDefinition">
+                <Property type="query">dataSource</Property>
+            </Definition>
+			<Property type="function">preExecution</Property>
+			<Property type="function">postExecution</Property>
+			<Property type="number">listeners</Property>
+			<Property>drawCallback</Property>
+		</Model>
+		<Implementation supportsLegacy="false" supportsAMD="true">
+			<Code src="svgComponent.js"/>
+			<CustomProperties>
+				<DesignerProperty>
+					<Header>
+                        <Name>url</Name>
+						<Parent>BaseProperty</Parent>
+						<DefaultValue></DefaultValue>
+						<Description>URL</Description>
+						<Tooltip>URL to svg</Tooltip>
+                        <Advanced>false</Advanced>
+						<InputType>String</InputType>
+						<OutputType>String</OutputType>
+						<Order>40</Order>
+						<Version>1.0</Version>
+					</Header>
+				</DesignerProperty>
+				<DesignerProperty>
+					<Header>
+                        <Name>keepImage</Name>
+						<Parent>BaseProperty</Parent>
+						<DefaultValue>"true"</DefaultValue>
+						<Description>Keep Image</Description>
+						<Tooltip>Keep Image on ReRender</Tooltip>
+                        <Advanced>false</Advanced>
+						<InputType>Boolean</InputType>
+						<OutputType>Boolean</OutputType>
+						<Order>41</Order>
+						<Version>1.0</Version>
+					</Header>
+				</DesignerProperty>
+			</CustomProperties>
+		</Implementation>
+	</Contents>
+</DesignerComponent>
