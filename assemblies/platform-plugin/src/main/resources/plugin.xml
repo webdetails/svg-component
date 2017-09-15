@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin name="${component.name}" title="Svg Component">
+
+  <static-paths>
+    <!-- this translates to /pentaho/content/common-ui/resources/* -->
+    <static-path url="/${component.name}/resources" localFolder="resources"/>
+  </static-paths>
+  <external-resources>
+	<file context="requirejs">content/${component.name}/resources/components/require-js-cfg.js</file>
+  </external-resources>
+
+</plugin>
