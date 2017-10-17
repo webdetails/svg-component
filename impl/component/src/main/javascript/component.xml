@@ -55,6 +55,20 @@
 						<Version>1.0</Version>
 					</Header>
 				</DesignerProperty>
+				<DesignerProperty>
+					<Header>
+                        <Name>drawCallback</Name>
+						<Parent>BaseProperty</Parent>
+						<DefaultValue>"function callBack(){\n    return {};\n}"</DefaultValue>
+						<Description>drawCallback</Description>
+						<Tooltip>Function that will be called after all component operations are performed.</Tooltip>
+                        <Advanced>false</Advanced>
+						<InputType>JavaScript</InputType>
+						<OutputType>Function</OutputType>
+						<Order>42</Order>
+						<Version>1.0</Version>
+					</Header>
+				</DesignerProperty>
 			</CustomProperties>
 		</Implementation>
 	</Contents>
