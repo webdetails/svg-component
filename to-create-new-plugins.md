@@ -1,6 +1,6 @@
 # To new Components
 
-This plugin is a CDE component that allows svg file manipulation, through is own data source. We've used maven to create a structure that allows a clean and easy way to created the elements needed to release it.
+This plugin is a CDE component that allows svg file manipulation through is own data source. We've used maven to create a structure that allows a clean and easy way to created the elements needed to release it.
 
 The project's file structure and his maven configuration elements were created to be used as a source to another CDE components. 
 
@@ -18,7 +18,7 @@ The operations needed to create a new component using this structure are:
 
 This component has a maven like structure. This means that we have a clear separation between _implementation_ resources, and the _assemblies_ generated to _publish_ our content.
 
-To materialize this we have two main directories, **impl** and **assemblies**: on **impl** directory you will place your javascript code, and on **assemblies** you will place your static resources (used to configure the component), and you will collect the .zip files to publish our final plugin content.
+To materialize this we have two main directories, **impl** and **assemblies**: on **impl** directory you will place your javascript code, and on **assemblies** you will place your static resources (used to configure the component). 
 
 These main directories are them divided into two different areas, component and sample, to represent the two main action points where we will create content, the code for component and the sample dashboard used to show the component in use.
 
@@ -34,9 +34,9 @@ To create your new component you will be working on the following directories:
 
 ## Maven configuration
 
-Maven works through a set of pom.xml files, placed under all the important directories, that help to recreate a hierarchy of artifacts; and a set of _assembly.xml_ files that will tell how we want our package to be assembled.
+Maven works through a set of pom.xml files, placed under all the important directories that help to recreate a hierarchy of artifacts; and a set of _assembly.xml_ files that will tell how we want our package to be assembled.
 
-A simple configuration on maven to meet your component requirements, using the same file structure that is created, will need changes on the main **pom.xml**, under the project's root directory. Here you will find the next variables to change:
+A simple configuration on maven to meet your component requirements, using the same file structure that is used on svg-component, will need changes on the main **pom.xml**, under the project's root directory. Here you will find the next variables to change:
 
 * **component.name**
 	* used to:
